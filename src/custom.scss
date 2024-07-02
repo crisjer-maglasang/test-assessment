@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+$shepherd-black: #2E3440;
+
+.banner-background {
+    background: linear-gradient(0deg, var(--Colors-Grey-Shepherd-Black, #2E3440), var(--Colors-Grey-Shepherd-Black, #2E3440)),
+                radial-gradient(87.34% 87.34% at 50% 50%, rgba(0, 148, 255, 0.24) 0%, rgba(0, 148, 255, 0) 100%);
+    background-blend-mode: overlay;
+  }
+  
+.divide-x > * + * {
+    border-top: 1px solid #D8DEEE;
+}
+
+.border-left-shepherd-blue {
+  border-left: 3px solid #5477B2;
+}
